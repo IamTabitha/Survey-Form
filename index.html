@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div id="mainContent">
+        <h1>Biwa Covid Pandemic Survey Form</h1>
+        <p>All information provided is used to help you during this pandemic and will be securely stored and none is shared to third parties.</p>
+        <p>Anyting with <span style ="color:red;">*</span> is required to be filled!</p>
+        <form>
+            <lable for="userEmail">Email Address<span style="color:red;">*</span></lable><br>
+            <input type="email" id="userEmail" name="userEmail" required>
+            <br><br>
+            <lable for="userNames">Full Names<span style="color:red;">*</span></lable><br>
+            <input type="text" id="userEmail" name="userNames" required>
+            <br><br>
+            <lable for="userContact">Phone Number<span style="color:red;">*</span></lable><br>
+            <input type="tel" id="userEmail" name="userContact" required>
+            <br><br>
+            <label for="educationalStatus">Educational Status</label>
+            <select id="educationalStatus">
+                <option>Primary Education</option>
+                <option>Secondary Education</option>
+                <option>Tertiary Education</option>
+                <option>University Education</option>
+            </select>
+            <br><br>
+            <label>Select one that currently fits your current situation</label>
+            <br>
+            <input type="radio" id="student" name="student">
+            <label for="student">Student</label>
+            <br>
+            <input type="radio" id="selfEmployed" name="selfEmployed">
+            <label for="selfEmployed">Self Employed</label>
+            <br>
+            <input type="radio" id="Unemployed" name="Unemployed">
+            <label for="Unemployed">Unemployed</label>
+            <br>
+            <input type="radio" id="employed" name="employed">
+            <label for="employed">Employed</label>
+            <br>
+            <label>What would you like us to assist you with?</label><br>
+            
+        </form>
+    </div>
+</body>
+</html>
