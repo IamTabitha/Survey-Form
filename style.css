@@ -11,3 +11,27 @@ body{
     /*width: 400px;*/
     width: 600px;
 }
+#other{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: palevioletred;
+    
+}
+button{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding:10px 15px 10px 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+input{
+    cursor: pointer;
+}
+select{
+    cursor: pointer;
+}
